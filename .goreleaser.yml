@@ -20,3 +20,18 @@ changelog:
     exclude:
     - '^docs:'
     - '^test:'
+brew:
+  name: countmits
+
+  github:
+    owner: muhajirframe
+    name: countmits
+
+  url_template: "http://github.com/muhajirframe/countmits/releases/{{ .Tag }}/{{ .ArtifactName }}"
+
+
+
+  dependencies:
+    - git
+    - zsh
+
