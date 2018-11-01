@@ -27,7 +27,7 @@ brew:
     owner: muhajirframe
     name: countmits
 
-  url_template: "http://github.com/muhajirframe/countmits/releases/{{ .Tag }}/{{ .ArtifactName }}"
+  url_template: "http://github.com/muhajirframe/countmits/releases/download/{{ .Tag }}/{{ .ArtifactName }}"
 
   commit_author:
     name: muhajirframe
@@ -37,5 +37,4 @@ brew:
 
   dependencies:
     - git
-    - zsh
 
