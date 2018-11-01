@@ -6,7 +6,7 @@ Prerequisites
 
 - [Git](https://git-scm.com/)
 
-## Installing
+## Installation
 
 ```bash
 brew install countmits
