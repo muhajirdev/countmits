@@ -29,6 +29,10 @@ brew:
 
   url_template: "http://github.com/muhajirframe/countmits/releases/{{ .Tag }}/{{ .ArtifactName }}"
 
+  commit_author:
+    name: muhajirframe
+    email: muhajirframe@gmail.com
+
 
 
   dependencies:
