@@ -26,3 +26,10 @@ example
 ```bash
 $ countmits master
 ```
+
+## Contributing
+
+- Got a question or idea. Submit an [issue](https://github.com/muhajirframe/countmits/issues/new) or ping me [@muhajirframe](https://twitter.com/muhajirframe) on twitter
+- Submit a pull request
+
+**Enjoy**
