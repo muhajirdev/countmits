@@ -27,5 +27,5 @@ countmits [branch name]
 example
 
 ```bash
-countmits bash
+$ countmits master
 ```
