@@ -9,6 +9,7 @@ Prerequisites
 ## Installation
 
 ```bash
+brew tap muhajirframe/countmits https://github.com/muhajirframe/countmits
 brew install countmits
 ```
 
