@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+	"log"
 	"os"
 	"os/exec"
 )
@@ -19,10 +19,10 @@ func main() {
 	branch := getBranchName()
 
 	cmd := exec.Command("git", "rev-list", "--count", branch)
-	output, err := cmd.CombinedOutput()
+	cmd.Stdout = os.Stdout
+	cmd.Stderr = os.Stderr
+	err := cmd.Run()
 	if err != nil {
-		fmt.Printf("%v\nPlease install git \n", err.Error())
+		log.Fatalf("%v\nPlease install git \n", err.Error())
 	}
-
-	fmt.Println(string(output))
 }
